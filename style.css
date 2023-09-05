@@ -1,20 +1,21 @@
 @font-face{
   font-family: 'Fraunces';
-  src: url(/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf)
+  src: url(/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
 }
 
 :root {
-  --clr-accent-400: hsl(150, 100%, 63%)
+  --clr-accent-400: hsl(150, 100%, 63%);
 
-  --clr-primary-300: hsl(271, 12%, 34%)
-  --clr-primary-400: hsl(273, 85%, 13%)
+  --clr-primary-300: hsl(271, 12%, 34%);
+  --clr-primary-400: hsl(273, 85%, 13%);
 
-  --clr-neutral-100: hsl(0,0,100%)
-  --clr-neutral-400: hsl(276, 100%, 99%)
+  --clr-neutral-100: hsl(0,0,100%);
+  --clr-neutral-400: hsl(276, 100%, 99%);
 
-  --ff-primary: "Fraunces". sans-serif;
+  --ff-primary: "Fraunces", sans-serif;
   
 }
+
 /* Box sizing rules */
 *,
 *::before,
@@ -83,5 +84,6 @@ svg {
 /* general style */
 
 body{
-  font-family: var(--ff-primary)
+  font-family: var(--ff-primary);
+  color:red;
 }
